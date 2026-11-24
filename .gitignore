@@ -1,0 +1,28 @@
+# Local data and exports
+*.ndjson
+*.jsonl
+*.evtx
+*.log
+*.etl
+*.zip
+*.dump
+data/
+logs/
+elasticsearch-data/
+kibana-data/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.yml
+secrets.yaml
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
